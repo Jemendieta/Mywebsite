@@ -5,7 +5,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* inicio footer*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* INICIO ESTILOS FOOTER*/
 .pie-social {
   position: fixed;
   left: 0;
@@ -43,7 +48,11 @@
 .pie-social__lista .icon-linkedin {
   background: #0e76a8;
 }
+.pie-social__lista .icon-mail {
+  background: #666666;
+}
 .pie-social__lista a:hover {
   padding: 10px 30px;
   background: #000;
 }
+/* FIN ESTILOS FOOTER */

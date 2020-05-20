@@ -8,13 +8,11 @@
       name="description"
       content="Sitio web de fotografía aficionada - Ayabaca - Perú"
     />
-    <title>@jorge_mendietall</title>
-
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
-
+    <title>| Jorge Mendieta Photography</title>
     <link rel="stylesheet" href="icomoon/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="js/main.js" />
-    <!---->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
   </head>
 
   <body>
@@ -22,40 +20,63 @@
     intemtype, itemscope y itemprop (para el tipo de dato que estoy ingresando)-->
 
     <!--INICIO HEADER-->
-    <header class="header">
-      <h1 class="header-titulo">Jorge Mendieta Photograpy</h1>
+    <header class="cabecera">
+      <img src="img/banner.jpg" alt="banner" class="caberera-banner" />
+      <nav class="cabecera-navegador">
+        <a href="Acerca.html">Sobre mi</a>
+        <a href="fotografia.html">Fotografías</a>
+        <a href="contacto.html">Escríbeme</a>
+      </nav>
+      <div class="titulo">
+        <h1 class="titulo-web">Jorge Mendieta Photography</h1>
+        <p class="titulo-descripcion">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          omnis doloribus impedit!
+        </p>
+      </div>
+      <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C209.65,151.47 294.86,-102.13 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #08f;"
+          ></path>
+        </svg>
+      </div>
     </header>
     <!--FIN HEADER-->
-    <!--INICIO NAV-->
-    <nav class="navegador">
-      <ul class="navegador-menu">
-        <li class="navegador-menu__opcion">Inicio</li>
-        <li class="navegador-menu__opcion">Sobre Mi</li>
-        <li class="navegador-menu__opcion">Fotografías</li>
-        <li class="navegador-menu__opcion">Contacto</li>
-        <li class="navegador-menu_-opcion">Ayuda</li>
-      </ul>
-    </nav>
-    <!--FIN NAV-->
+
     <!--INICIO MAIN-->
-    <main class="main">
-      <section class="main-contenido">
-        <h2 class="main-contenido__titulo">Mi primer post</h2>
-        <p class="main-contenido__parrafo">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
-          quia libero corporis commodi voluptas.
-        </p>
+    <main class="galeria">
+      <section class="galeria-contenedor">
+        <h2 class="galeria-contenedor__titulo">
+          mi histooria con la fotografía
+        </h2>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
+        <div class="galeria-contenedor__foto">
+          <img src="" alt="" />
+        </div>
       </section>
     </main>
     <!--FIN MAIN-->
-    <article class="articulo">
-      <h2 class="articulo-titulo">Título del artículo</h2>
-      <p class="articulo-parrafo">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, magni
-        quibusdam doloribus fuga eaque blanditiis explicabo placeat officia
-        quas? Ex?
-      </p>
-    </article>
+
     <!--INICIO FOOTER-->
     <footer class="pie">
       <h2>Contacto</h2>
@@ -113,7 +134,7 @@
             <a href="" target="_blank" class="icon-linkedin"></a>
           </li>
           <li>
-            <a href="" target="_blank" class=""></a>
+            <a href="mailto:contacto@mendietaphoto.com" class="icon-mail"></a>
           </li>
         </ul>
       </div>
